@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.stocks.model.SimpleSelect;
+import com.stocks.model.dao.impl.StocksDaoImpl;
 
 
 public class DownloadPage {
@@ -78,7 +78,7 @@ public class DownloadPage {
         		);
         	}
         }
-        SimpleSelect service = new SimpleSelect();
+        StocksDaoImpl service = new StocksDaoImpl();
         service.importData(stocksList);
     }
 }
