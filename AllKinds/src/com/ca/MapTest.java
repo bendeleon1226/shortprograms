@@ -4,10 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapTest {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	
+	public String solution(String s){
 		Map<String,String> rules = new HashMap<String,String>();
 		rules.put("AB", "AA");
 		rules.put("BA", "AA");
@@ -16,12 +14,10 @@ public class MapTest {
 		rules.put("AA", "A");
 		rules.put("CC", "C");
 		
-		String s = "ABBCC";
 		StringBuilder sb = new StringBuilder(s);
 		boolean isRuleApply = true;
 		while(isRuleApply){
-			System.out.println(sb);
-			
+			//System.out.println(sb);
 			int sbLength = sb.length();
 			boolean isRuleFound = false;
 			if(sbLength >=2){
@@ -42,7 +38,16 @@ public class MapTest {
 				isRuleApply = false;
 			}
 		}
-		System.out.println("Final: " + sb.toString());
+		return sb.toString();		
 	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MapTest mt = new MapTest();
+		String s = "ABBCC";
+		System.out.println(mt.solution(s));		
+	}
+	
+	
 
 }
