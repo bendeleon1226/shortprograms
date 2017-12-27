@@ -45,6 +45,7 @@ public class MapTest {
 		// TODO Auto-generated method stub
 		MapTest mt = new MapTest();
 		String s = "ABBCC";
+		//String s = "ACAA";
 		System.out.println(mt.solution(s));		
 	}
 	

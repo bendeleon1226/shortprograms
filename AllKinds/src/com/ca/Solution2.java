@@ -41,8 +41,8 @@ class Solution2 {
 
  public static void main(String[] args){
 	 Solution2 s = new Solution2();
-	 //int[] A = {8,24,3,20,1,17};
-	 int[] A = {7,21,3,42,3,7};
+	 int[] A = {8,24,3,20,1,17};
+	 //int[] A = {7,21,3,42,2,6};
 	 System.out.println(s.solution(A));
  }
 }
