@@ -8,9 +8,4 @@ public class BenAt32Utility {
 		}
 		return sum;
 	}
-	
-	public void printNumbers(int x){
-		for(int a=1; a<=x; a++)
-			System.out.println(a);
-	}
 }
