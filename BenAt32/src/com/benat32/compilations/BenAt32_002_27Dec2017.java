@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import com.benat32.util.BenAt32Utility;
 
-public class BenAt32_02_27Dec2017 {
+public class BenAt32_002_27Dec2017 {
 
 	public static void main(String[] args) {
 		System.out.print("Enter number: ");
