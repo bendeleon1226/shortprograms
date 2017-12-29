@@ -34,6 +34,9 @@ public class BenAt32_004_29Dec2017 {
 		Flavor.CHOCOLATE.setCalaries(150);
 		System.out.println("Chocolate calories: " + Flavor.CHOCOLATE.getCalories());
 		
+		for(Size size: Size.values()){
+			log("Size: " + size);
+		}
 	}
 	
 	private static void log(Object aMessage){
