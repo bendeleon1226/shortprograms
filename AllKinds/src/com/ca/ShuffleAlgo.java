@@ -6,9 +6,11 @@ public class ShuffleAlgo {
 		ShuffleAlgo sa = new ShuffleAlgo();
 		
 		//int input = 123456;
-		//int input = 1234567;
+		int input = 1234567;
 		//int input = 103;
-		int input = 12345678;		
+		//int input = 12345678;
+		//int input = 8;
+		//int input = 23;
 		System.out.println("Output: " + sa.solution(input));
 	}
 
